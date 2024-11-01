@@ -1,0 +1,36 @@
+.nav{
+   background-color: #e8e5e480;
+   
+   display: flex;
+   justify-content: center;
+   gap: 5px;
+   padding: 5px;
+
+   width: max-content;
+   border-radius: 30px;
+   margin: 0 auto;
+   position: fixed;
+   top: 40px;
+
+   transform: translateX(-50%);
+
+
+
+   a{
+      color: #000;
+      text-decoration: none;
+      background-color: transparent;
+      padding: 8px 24px;
+      border-radius: 30px;
+
+      &:hover{
+         background-color: #fff;
+      }
+   }
+}
+
+
+.header{
+   display: flex;
+   justify-content: center;
+}

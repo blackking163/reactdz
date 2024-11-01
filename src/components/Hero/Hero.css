@@ -1,0 +1,29 @@
+.hero {
+  margin-top: 100px;
+}
+.hero__wrapper {
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100dvh;
+}
+.hero__wrapper h1 {
+  font-size: clamp(2rem, 1.143rem + 3.52vw, 4rem);
+  max-width: 800px;
+  font-weight: 500;
+}
+.hero__box {
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.hero__box p {
+  background-color: rgba(232, 229, 228, 0.5019607843);
+  padding: 8px 14px;
+  border-radius: 30px;
+}/*# sourceMappingURL=Hero.css.map */

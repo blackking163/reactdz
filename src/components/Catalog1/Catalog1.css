@@ -1,0 +1,53 @@
+.catalog1 {
+  text-align: center;
+}
+.catalog1__wrapper {
+  margin: 200px 0 200px 0;
+}
+.catalog1__wrapper h1 {
+  font-size: 100px;
+}
+.catalog1__foto {
+  display: flex;
+  margin-top: 200px;
+  gap: 20px;
+}
+.catalog1__foto img {
+  border-radius: 10px;
+}
+.catalog1 .catalog1__about h2 {
+  font-size: 38px;
+  max-width: 700px;
+  margin: 0 auto;
+  font-weight: 400;
+  margin-top: 50px;
+}
+.catalog1 .catalog1__about p {
+  background-color: rgba(232, 229, 228, 0.5019607843);
+  padding: 1px 14px;
+  border-radius: 30px;
+  max-width: 50px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+.catalog1 .catalog1__experience p1 {
+  background-color: rgba(232, 229, 228, 0.5019607843);
+  padding: 1px 14px;
+  border-radius: 30px;
+  max-width: 50px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+.catalog1 .catalog1__experience h2 {
+  font-size: 38px;
+  max-width: 700px;
+  margin: 0 auto;
+  font-weight: 500;
+  margin-top: 50px;
+}
+.catalog1 .catalog1__experiencecard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  margin-top: 50px;
+}/*# sourceMappingURL=Catalog1.css.map */

@@ -1,0 +1,61 @@
+.catalog1 {
+    text-align: center;
+
+    &__wrapper {
+        margin: 200px 0 200px 0;
+        h1 {
+            font-size: 100px;
+        }
+    }
+
+    &__foto {
+        display: flex;
+       margin-top: 200px;
+       gap: 20px;
+       img {
+        border-radius: 10px;
+       }
+    }
+    .catalog1__about {
+        h2 {
+            font-size: 38px;
+            max-width: 700px;
+            margin: 0 auto;
+            font-weight: 400;
+            margin-top: 50px;
+        }
+        p {
+            background-color: #e8e5e480;
+         padding: 1px 14px;
+         border-radius: 30px;
+         max-width: 50px;
+         margin: 0 auto;
+         margin-top: 200px;
+        }
+    }
+    .catalog1__experience {
+       p1 {
+        background-color: #e8e5e480;
+        padding: 1px 14px;
+        border-radius: 30px;
+        max-width: 50px;
+        margin: 0 auto;
+        margin-top: 200px;
+       
+       }
+        h2 {
+            font-size: 38px;
+            max-width: 700px;
+            margin: 0 auto;
+            font-weight: 500;
+            margin-top: 50px;  
+        }
+    }
+    .catalog1__experiencecard {
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 50px;
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,29 @@
+.nav {
+  background-color: rgba(232, 229, 228, 0.5019607843);
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding: 5px;
+  width: -moz-max-content;
+  width: max-content;
+  border-radius: 30px;
+  margin: 0 auto;
+  position: fixed;
+  top: 40px;
+  transform: translateX(-50%);
+}
+.nav a {
+  color: #000;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 8px 24px;
+  border-radius: 30px;
+}
+.nav a:hover {
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=Header.css.map */
